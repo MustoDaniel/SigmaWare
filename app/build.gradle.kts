@@ -103,4 +103,15 @@ dependencies {
     // Date picker
     implementation(libs.datetime)
 
+    // For Google Maps
+    implementation (libs.maps.compose)
+    implementation (libs.play.services.maps.v1810)
+
+    // For permission handling
+    implementation (libs.accompanist.permissions)
+
+    // Other Compose dependencies you might need
+    implementation (libs.androidx.activity.compose.v172)
+    implementation (libs.material3)
+
 }
